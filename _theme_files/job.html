@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <title>Empleos Vue | Conviértete en un Desarrollador Vue</title>
+  </head>
+  <body>
+    <nav class="bg-green-700 border-b border-green-500">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="flex h-20 items-center justify-between">
+          <div
+            class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
+          >
+            <!-- Logo -->
+            <a class="flex flex-shrink-0 items-center mr-4" href="index.html">
+              <img class="h-10 w-auto" src="images/logo.png" alt="Empleos Vue" />
+              <span class="hidden md:block text-white text-2xl font-bold ml-2"
+                >Empleos Vue</span
+              >
+            </a>
+            <div class="md:ml-auto">
+              <div class="flex space-x-2">
+                <a
+                  href="index.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Inicio</a
+                >
+                <a
+                  href="jobs.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Empleos</a
+                >
+                <a
+                  href="add-job.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Agregar Empleo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Volver -->
+    <section>
+      <div class="container m-auto py-6 px-6">
+        <a
+          href="jobs.html"
+          class="text-green-500 hover:text-green-600 flex items-center"
+        >
+          <i class="fas fa-arrow-left mr-2"></i> Volver a Listado de Empleos
+        </a>
+      </div>
+    </section>
+
+    <section class="bg-green-50">
+      <div class="container m-auto py-10 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
+          <main>
+            <div
+              class="bg-white p-6 rounded-lg shadow-md text-center md:text-left"
+            >
+              <div class="text-gray-500 mb-4">Tiempo Completo</div>
+              <h1 class="text-3xl font-bold mb-4">Desarrollador Vue Senior</h1>
+              <div
+                class="text-gray-500 mb-4 flex align-middle justify-center md:justify-start"
+              >
+                <i
+                  class="fa-solid fa-location-dot text-lg text-orange-700 mr-2"
+                ></i>
+                <p class="text-orange-700">Boston, MA</p>
+              </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md mt-6">
+              <h3 class="text-green-800 text-lg font-bold mb-6">
+                Descripción del Trabajo
+              </h3>
+
+              <p class="mb-4">
+                Buscamos un talentoso Desarrollador Front-End para unirse a nuestro equipo
+                en Boston, MA. El candidato ideal tendrá fuertes habilidades en
+                HTML, CSS y JavaScript, con experiencia trabajando con frameworks modernos
+                de JavaScript como Vue o Angular.
+              </p>
+
+              <h3 class="text-green-800 text-lg font-bold mb-2">Salario</h3>
+
+              <p class="mb-4">$70k - $80K / Año</p>
+            </div>
+          </main>
+
+          <!-- Barra Lateral -->
+          <aside>
+            <!-- Información de la Empresa -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+              <h3 class="text-xl font-bold mb-6">Información de la Empresa</h3>
+
+              <h2 class="text-2xl">NewTek Solutions</h2>
+
+              <p class="my-2">
+                NewTek Solutions es una empresa de tecnología líder especializada en
+                desarrollo web y soluciones digitales. Nos enorgullecemos de
+                ofrecer productos y servicios de alta calidad a nuestros clientes
+                mientras fomentamos un ambiente de trabajo colaborativo e innovador.
+              </p>
+
+              <hr class="my-4" />
+
+              <h3 class="text-xl">Correo de Contacto:</h3>
+
+              <p class="my-2 bg-green-100 p-2 font-bold">
+                contact@newteksolutions.com
+              </p>
+
+              <h3 class="text-xl">Teléfono de Contacto:</h3>
+
+              <p class="my-2 bg-green-100 p-2 font-bold">555-555-5555</p>
+            </div>
+
+            <!-- Administrar -->
+            <div class="bg-white p-6 rounded-lg shadow-md mt-6">
+              <h3 class="text-xl font-bold mb-6">Administrar Empleo</h3>
+              <a
+                href="add-job.html"
+                class="bg-green-500 hover:bg-green-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+                >Editar Empleo</a
+              >
+              <button
+                class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
+              >
+                Eliminar Empleo
+              </button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

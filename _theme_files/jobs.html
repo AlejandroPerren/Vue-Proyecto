@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <title>Empleos Vue | Conviértete en un Desarrollador Vue</title>
+  </head>
+  <body>
+    <nav class="bg-green-700 border-b border-green-500">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="flex h-20 items-center justify-between">
+          <div
+            class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
+          >
+            <!-- Logo -->
+            <a class="flex flex-shrink-0 items-center mr-4" href="index.html">
+              <img class="h-10 w-auto" src="images/logo.png" alt="Empleos Vue" />
+              <span class="hidden md:block text-white text-2xl font-bold ml-2"
+                >Empleos Vue</span
+              >
+            </a>
+            <div class="md:ml-auto">
+              <div class="flex space-x-2">
+                <a
+                  href="index.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Inicio</a
+                >
+                <a
+                  href="jobs.html"
+                  class="text-white bg-green-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Empleos</a
+                >
+                <a
+                  href="add-job.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Agregar Empleo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Filtrar Empleos -->
+    <section class="bg-green-50 py-4">
+      <div class="container mx-auto px-4">
+        <div class="relative">
+          <input
+            type="text"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-green-500"
+            placeholder="Filtrar empleos..."
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Todos los Empleos -->
+    <section class="bg-green-50 px-4 py-10">
+      <div class="container-xl lg:container m-auto">
+        <h2 class="text-3xl font-bold text-green-500 mb-6 text-center">
+          Explorar Empleos
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Listado de Empleo 1 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Tiempo Completo</div>
+                <h3 class="text-xl font-bold">Desarrollador Vue Senior</h3>
+              </div>
+
+              <div class="mb-5">
+                Estamos buscando un talentoso Desarrollador Front-End para unirse a nuestro equipo en Boston, MA. El candidato ideal tendrá habilidades sólidas en HTML, CSS y JavaScript...
+              </div>
+
+              <h3 class="text-green-500 mb-2">$70 - $80K / Año</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Boston, MA
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Leer Más
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Listado de Empleo 2 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Remoto</div>
+                <h3 class="text-xl font-bold">Ingeniero Front-End (Vue)</h3>
+              </div>
+
+              <div class="mb-5">
+                Únete a nuestro equipo como Desarrollador Front-End en la soleada Miami, FL. Buscamos a una persona motivada con pasión...
+              </div>
+
+              <h3 class="text-green-500 mb-2">$70K - $80K / Año</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Miami, FL
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Leer Más
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Listado de Empleo 3 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Remoto</div>
+                <h3 class="text-xl font-bold">Desarrollador Vue.js</h3>
+              </div>
+
+              <div class="mb-5">
+                ¿Eres apasionado por el desarrollo front-end? Únete a nuestro equipo en la vibrante Brooklyn, NY, y trabaja en proyectos emocionantes que marcan la diferencia...
+              </div>
+
+              <h3 class="text-green-500 mb-2">$70K - $80K / Año</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Brooklyn, NY
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Leer Más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Listado de Empleo 4 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Tiempo Parcial</div>
+                <h3 class="text-xl font-bold">Desarrollador Front-End Vue</h3>
+              </div>
+
+              <div class="mb-5">
+                Únete a nuestro equipo como Desarrollador Front-End a Tiempo Parcial en la hermosa Pheonix, AZ. Buscamos a una persona automotivada con pasión...
+              </div>
+
+              <h3 class="text-green-500 mb-2">$60 - $70K / Año</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Pheonix, AZ
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Leer Más
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Listado de Empleo 5 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Tiempo Completo</div>
+                <h3 class="text-xl font-bold">Desarrollador Vue Full Stack</h3>
+              </div>
+
+              <div class="mb-5">
+                Oportunidad emocionante para un Desarrollador Front-End a Tiempo Completo en la bulliciosa Atlanta, GA. Estamos buscando a alguien con una sólida experiencia en Vue.js...
+              </div>
+
+              <h3 class="text-green-500 mb-2">$80K - $90K / Año</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Atlanta, GA
+                </div>
+                <a
+                  href="job.html"
+                  class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                  Leer Más
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-green-700 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Empleos Vue. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
